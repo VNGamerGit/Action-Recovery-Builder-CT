@@ -44,7 +44,7 @@ on:
       MAKEFILE_NAME:
         description: 'Specify your Makefile Name' # Look for twrp_ or omni_codename.mk, just remove the .mk
         required: true
-        default: 'twrp_SCWsprout'
+        default: 'omni_SCWsprout'
       BUILD_TARGET:
         description: 'Specify your Build Target' # Pick among boot, recovery and vendor_boot
         required: true
